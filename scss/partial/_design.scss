@@ -1,0 +1,30 @@
+#user{
+    padding: 100px 0;
+    .user1{
+        padding: 20px;
+        width: 50%;
+        
+        .user3_left{
+            float: left;
+            margin-right: 27px;
+            i{
+                font-size: 43px;
+                color:#425cbb;
+            }
+        }
+        .user4_right{
+            float: left;
+            h6{
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: $paraqraf-font-weight;
+                margin-bottom: 2.36363636363636em;
+            }
+            p{
+                color: $paraqraf-color;
+               
+            }
+        }
+    }
+
+}

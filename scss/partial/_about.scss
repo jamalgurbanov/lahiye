@@ -1,0 +1,148 @@
+#hacker{
+    padding: 180px 0px;
+    background-image: url(../img/hero5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    height: 70vh;
+    &::before{
+        position: absolute;
+        content: '';
+        background: #232323;
+        width: 100%;
+        height: 70%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.8;
+    }
+    .digital-col{
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        h3{
+         font-weight: $helper-font-weight;
+         font-family: $font-f;
+         font-size: $helper-font-size;
+         line-height: $helper-line-height;
+         color: $text-color-white;
+        }
+        p{
+         color: $text-color-white;
+         font-family: $paraqraf-font-family;
+         font-size: $paraqraf-font-size;
+         line-height: $paraqraf-line-height;
+         font-weight: 500;
+        }
+     }
+}
+
+#full{
+    padding: 100px 0;
+    position: relative;
+    bottom: 200px;
+    z-index: 3;
+    .card{
+       
+        .card__icon{
+            background: #f4f4f4;
+            padding: 78px 0;
+            text-align: center;
+            i{
+                font-size: 64px;
+                text-align: center;
+            }
+        }
+        .card__body{
+            position: relative;
+            overflow: hidden;
+            padding: 39px;
+            background: $text-color-white;
+            .card__title{
+                margin-bottom: 13px;
+                line-height: 26px;
+                font-size: 16px;
+                h5{
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-family: $font-f;
+                    font-weight: 600;
+                    color: #232323;
+                }
+            }
+            p{
+                margin-top: 26px;
+                color: $paraqraf-color;
+                margin-bottom: 26px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+#business{
+    // padding: 100px 0px;
+    position: relative;
+    background-image: url(../img/hero8.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    &::before{
+        position: absolute;
+        content: '';
+        background: #232323;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.4;
+    }
+    
+        h4{
+            position: absolute;
+            font-weight: 500;
+            font-family: $font-f;
+            font-size: $helper-font-size;
+            line-height: $helper-line-height;
+            color: $text-color-white;
+            margin-top: 90px;
+            margin-bottom: 30px;
+            left: 206px;
+            top: 10px;
+            z-index: 2;
+        }
+        .btn{
+            position: absolute;
+            font-family: $font-f;
+            border-radius: 100px;
+            padding-top: 20px;
+            padding-bottom: 17px;
+            padding-right: 40px;
+            padding-left: 40px;
+            border: 1px solid #425cbb;
+            border-width: 2px;
+            font-size: inherit;
+            margin-left: 26px;
+            background-color: #425cbb;
+            top: 180px;
+            right: 360px;
+            z-index: 3;
+                &:hover{
+                    background-color:#007bff;
+                    border-color: #007bff;
+                }
+            .btn-text{
+                float: right;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                 font-weight: 400;
+                 font-size: 10px;
+                line-height: 10px;
+                color: $text-color-white;
+            }
+    
+        }
+}   

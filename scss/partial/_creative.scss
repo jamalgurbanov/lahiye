@@ -1,0 +1,19 @@
+#your{
+    padding: 100px 0;
+    .digital-col{
+       h3{
+        font-weight: $helper-font-weight;
+        font-family: $font-f;
+        font-size: $helper-font-size;
+        line-height: $helper-line-height;
+        color: $helper-color;
+       }
+       p{
+        color: $paraqraf-color;
+        font-family: $paraqraf-font-family;
+        font-size: $paraqraf-font-size;
+        line-height: $paraqraf-line-height;
+        font-weight: $paraqraf-font-weight;
+       }
+    }
+}
